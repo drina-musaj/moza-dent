@@ -14,8 +14,9 @@ function App() {
       <Navbar />
       <HeroSection />
       <Testimonials />
-      <Location />
       <H_Services />
+      <Location />
+      
     </div>
   );
 }
