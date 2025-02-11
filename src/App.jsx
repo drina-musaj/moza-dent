@@ -5,6 +5,7 @@ import HeroSection from './components/homepage/HeroSection';
 import Location from './components/homepage/Location';
 import Testimonials from './components/homepage/Testimonials';
 import H_Services from './components/homepage/H_Services';
+import Footer from './components/Footer';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Testimonials />
       <H_Services />
       <Location />
+      <Footer />
       
     </div>
   );

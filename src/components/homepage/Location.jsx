@@ -8,10 +8,9 @@ const Location = () => {
             style={{ backgroundImage: `url(${background4})` }}
           >
      <div className="max-w-8xl mx-auto px-4 md:flex md:items-center md:space-x-12">
-        {/* Map Section */}
         <div
           className="md:w-1/2 w-full h-[50vh] md:h-screen"
-          style={{ minHeight: '400px' }} // Ensures a minimum height for smaller screens
+          style={{ minHeight: '400px' }}
         >
           <iframe
             title="Clinic Location"
@@ -25,7 +24,6 @@ const Location = () => {
           ></iframe>
         </div>
 
-        {/* Text Section */}
         <div className="md:w-1/2 w-full mt-8 md:mt-0 flex flex-col justify-center ">
           <h2 className="text-5xl md:text-6xl font-peachi font-bold text-[#074a65] mb-6">
           In the Heart of Tirana,
