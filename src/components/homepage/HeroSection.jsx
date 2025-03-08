@@ -6,11 +6,14 @@ import icon1 from "../../assets/1.png";
 import icon2 from "../../assets/2.png";
 import icon3 from "../../assets/3.png";
 
-
-
 const HeroSection = () => {
+  const scrollToNextSection = () => {
+    const nextSection = document.getElementById('next-section');
+    if (nextSection) {
+      nextSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
-  
   return (
     <>
       <section
@@ -25,14 +28,17 @@ const HeroSection = () => {
             <p className="text-lg font-poppins mb-6">
               Your trusted partner for quality dental care.
             </p>
-            <button className="mt-6 bg-[#4DCCBD] text-white px-6 py-3 rounded-full font-medium hover:bg-[#2374AB] transition">
+            <button 
+              onClick={scrollToNextSection} 
+              className="mt-6 bg-[#4DCCBD] text-white px-6 py-3 rounded-full font-medium hover:bg-[#2374AB] transition"
+            >
               Get Started
             </button>
           </div>
         </div>
       </section>
 
-      <section className="relative bg-cover bg-center bg-no-repeat py-20 min-h-screen flex flex-col items-center justify-center"
+      <section id="next-section" className="relative bg-cover bg-center bg-no-repeat py-20 min-h-screen flex flex-col items-center justify-center"
       style={{ backgroundImage: `url(${background2})` }}>
         <h1 className="text-6xl font-peachi font-bold mb-28 text-[#074a65]">
           A Small Clinic with Big Care
@@ -82,9 +88,6 @@ const HeroSection = () => {
           </div>
         </div>
       </section>
-
-     
-      
     </>
   );
 };
