@@ -1,5 +1,3 @@
-import React from 'react';
-
 import background from '../../assets/hero-background.png';
 import background2 from '../../assets/bg2.png';
 import icon1 from "../../assets/1.png";
@@ -68,7 +66,7 @@ const HeroSection = () => {
               <p className="text-2xl sm:text-3xl font-peachi font-semibold text-[#074a65]">
                 Smiles for the Whole Family
               </p>
-              <p className="text-lg sm:text-xl font-poppins text-[#074a65]">
+              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center">
                 Gentle Dentistry for All Ages
               </p>
             </div>
@@ -78,10 +76,10 @@ const HeroSection = () => {
               <img src={icon3} alt="Icon 3" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-2">
-              <p className="text-2xl sm:text-3xl font-peachi font-semibold text-[#074a65]">
+              <p className="text-2xl sm:text-3xl font-peachi font-semibold text-[#074a65] text-center">
                 Modern Technology, Timeless Care
               </p>
-              <p className="text-lg sm:text-xl font-poppins text-[#074a65]">
+              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center">
                 Advanced Dentistry with a Human Touch
               </p>
             </div>

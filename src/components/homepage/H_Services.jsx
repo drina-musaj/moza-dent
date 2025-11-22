@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { motion } from 'framer-motion';
 import background5Dark from '../../assets/bg5-d.png';
 import icon1 from '../../assets/icon1-whitening.png';
@@ -19,7 +19,7 @@ const services = [
 
 const H_Services = () => (
   <section
-    className="relative bg-cover bg-center bg-no-repeat text-white py-20 min-h-screen flex flex-col items-center"
+    className="px-4 relative bg-cover bg-center bg-no-repeat text-white py-20 min-h-screen flex flex-col items-center"
     style={{ backgroundImage: `url(${background5Dark})` }}
   >
     <h1 className="text-6xl font-peachi font-bold mb-24 mt-14">Services</h1>
@@ -34,7 +34,11 @@ const H_Services = () => (
           transition={{ duration: 0.6, delay: index * 0.2 }}
           whileHover={{ scale: 1.1, transition: { duration: 0.4 } }}
         >
-          <img src={service.icon} alt={service.title} className="w-20 h-20 mb-4" />
+          <img
+            src={service.icon}
+            alt={service.title}
+            className="w-20 h-20 mb-4"
+          />
           <h2 className="text-xl font-poppins font-semibold">{service.title}</h2>
         </motion.div>
       ))}

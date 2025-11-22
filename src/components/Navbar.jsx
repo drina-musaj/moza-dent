@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../assets/MozaDent-Logo.jpg';
 import { Menu, X } from 'lucide-react';
 
@@ -35,7 +35,7 @@ const Navbar = () => {
             isOpen ? 'translate-x-0' : 'translate-x-full'
           } transition-transform duration-300 ease-in-out md:hidden z-40`}
         >
-          <ul className="flex flex-col mt-20 space-y-6 px-6">
+          <ul className="flex flex-col mt-20 space-y-6 px-6 pb-[100vh]">
             <li><a href="#home" onClick={toggleMenu} className="text-lg hover:text-[#4DCCBD]">Home</a></li>
             <li><a href="#services" onClick={toggleMenu} className="text-lg hover:text-[#4DCCBD]">Services</a></li>
             <li><a href="#testimonials" onClick={toggleMenu} className="text-lg hover:text-[#4DCCBD]">Testimonials</a></li>

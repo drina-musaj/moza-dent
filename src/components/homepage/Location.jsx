@@ -13,7 +13,7 @@ const Location = () => (
       >
         <iframe
           title="Clinic Location"
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2090.168912349862!2d19.825638762831044!3d41.322322454120915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2s!4v1737318185639!5m2!1sen!2s"
+          src="https://www.google.com/maps?q=Dr+Moza+Dent+@41.3217441,19.8276071&z=17&output=embed"
           width="100%"
           height="100%"
           style={{ border: '0' }}
