@@ -1,14 +1,14 @@
-import background from '../../assets/hero-background.png';
-import background2 from '../../assets/bg2.png';
+import background from "../../assets/hero-background.png";
+import background2 from "../../assets/bg2.png";
 import icon1 from "../../assets/1.png";
 import icon2 from "../../assets/2.png";
 import icon3 from "../../assets/3.png";
 
 const HeroSection = () => {
   const scrollToNextSection = () => {
-    const nextSection = document.getElementById('next-section');
+    const nextSection = document.getElementById("next-section");
     if (nextSection) {
-      nextSection.scrollIntoView({ behavior: 'smooth' });
+      nextSection.scrollIntoView({ behavior: "smooth" });
     }
   };
 
@@ -47,7 +47,11 @@ const HeroSection = () => {
         <div className="space-y-12 max-w-4xl">
           <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4">
             <div className="w-20 h-20 rounded-full overflow-hidden shrink-0">
-              <img src={icon1} alt="Icon 1" className="w-full h-full object-cover" />
+              <img
+                src={icon1}
+                alt="Icon 1"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="space-y-2">
               <p className="text-2xl sm:text-3xl md:text-left font-peachi font-semibold text-[#074a65]">
@@ -60,26 +64,34 @@ const HeroSection = () => {
           </div>
           <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 text-left">
             <div className="w-20 h-20 rounded-full overflow-hidden shrink-0">
-              <img src={icon2} alt="Icon 2" className="w-full h-full object-cover" />
+              <img
+                src={icon2}
+                alt="Icon 2"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="space-y-2">
               <p className="text-2xl sm:text-3xl font-peachi font-semibold text-[#074a65]">
                 Smiles for the Whole Family
               </p>
-              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center">
+              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center md:text-left">
                 Gentle Dentistry for All Ages
               </p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-4 sm:space-y-0 sm:space-x-4 text-left">
             <div className="w-20 h-20 rounded-full overflow-hidden shrink-0">
-              <img src={icon3} alt="Icon 3" className="w-full h-full object-cover" />
+              <img
+                src={icon3}
+                alt="Icon 3"
+                className="w-full h-full object-cover"
+              />
             </div>
             <div className="space-y-2">
               <p className="text-2xl sm:text-3xl font-peachi font-semibold text-[#074a65] text-center">
                 Modern Technology, Timeless Care
               </p>
-              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center">
+              <p className="text-lg sm:text-xl font-poppins text-[#074a65] text-center md:text-left">
                 Advanced Dentistry with a Human Touch
               </p>
             </div>
