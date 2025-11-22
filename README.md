@@ -1,8 +1,40 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Moza Dent
 
-Currently, two official plugins are available:
+A Dental clinic website built with React, Vite, and Tailwind CSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Responsive design for all devices
+- Homepage with hero section, services, testimonials, and location
+- Smooth navigation and sticky navbar
+- Custom fonts and branding
+- Animated service cards and testimonial slider
+
+## Tech Stack
+- React
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v16 or higher recommended)
+- npm
+
+### Installation
+1. Clone the repository:
+	```sh
+	git clone https://github.com/drina-musaj/moza-dent.git
+	cd moza-dent
+	```
+2. Install dependencies:
+	```sh
+	npm install
+	```
+3. Start the development server:
+	```sh
+	npm run dev
+	```
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+

@@ -2,31 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Custom Peachi font faces */
 @font-face {
-    font-family: 'Peachi';
-    src: url('/src/assets/fonts/Peachi-bold.otf') format('opentype');
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Peachi';
-    src: url('/src/assets/fonts/Peachi-medium.otf') format('opentype');
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Peachi';
-    src: url('/src/assets/fonts/Peachi-regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Peachi';
-    src: url('/src/assets/fonts/Peachi-light.otf') format('opentype');
-    font-weight: 300;
-    font-style: normal;
-  }
-  
+  font-family: 'Peachi';
+  src: url('/src/assets/fonts/Peachi-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Peachi';
+  src: url('/src/assets/fonts/Peachi-medium.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Peachi';
+  src: url('/src/assets/fonts/Peachi-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Peachi';
+  src: url('/src/assets/fonts/Peachi-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
