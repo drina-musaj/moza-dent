@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../assets/MozaDent-logo.jpg';
+import logo from '../assets/MozaDent-Logo.jpg';
 import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
